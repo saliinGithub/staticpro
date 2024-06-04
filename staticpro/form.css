@@ -1,0 +1,43 @@
+#main-container{
+    width: 300px; 
+    border-radius: 20px;
+     display: flex; 
+     align-items: center; 
+     height: 450px;
+     box-shadow: 80px;
+     text-align: center;
+     margin: auto;
+     padding: 12px 20px;
+     background-color: hsl(75, 17%, 62%);
+     position: relative;
+  }
+  .main-div,
+  .form__action{
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    textarea{
+      width: 80%;
+      padding: 8px 15px;
+      margin: 6px 0;
+      background-color: hsl(0, 4%, 62%);
+      border-radius: 10px;
+      }
+  }
+  .button,
+  input[type=button]{
+    width: 80%;
+      padding: 8px 15px;
+      margin: 6px 0;
+  }
+  
+  .button{
+    border-radius: 8px;
+    box-shadow: 10px;
+    width: 80%;
+    background-color: green;
+  }
+  .button:hover{
+    background-color: blue;
+    transform: rotateY('angle');
+  }

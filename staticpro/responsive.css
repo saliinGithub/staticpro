@@ -1,0 +1,68 @@
+@media screen and (max-width:900px){
+    .header__top a span,
+    .header__top span span{
+        display: none;  
+    }
+    .toggle-menu{
+        display:block;
+    }
+    .main-nav li{
+        width: 100%;
+    }
+    .main-nav ul{
+        display: none;
+        gap: 10px;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background-color: black;
+        padding: 15px;
+        min-width: 140px;
+    }
+    .main-nav{
+        position: relative;
+    }
+    .main-nav ul.expand{
+        display: block;
+    }
+    .form-box .field-group{
+        width: 100%;
+        margin: right;
+    }
+    .banner-info,
+.banner-photo{
+    width: 100%;
+}
+html {
+    font-size: 60%;
+}
+
+.left_div_blog {
+    margin: 3rem 0;
+}
+
+p,
+label,
+input::placeholder {
+    font-size: 2.2rem;
+}
+
+:root {
+    --btn-font: 2rem;
+}
+
+.main_header h2 {
+    font-size: 4.5rem;
+}
+
+}
+
+@media(max-width:768px) {
+html {
+    font-size: 45%;
+}
+
+.left_div_blog {
+    margin: 3rem 0;
+}
+}
